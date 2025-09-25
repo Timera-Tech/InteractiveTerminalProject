@@ -28,7 +28,10 @@ Console.WriteLine($"Oh no,{playerName}! Your alien friend, {alienName}, was kidn
 
 //First obstacle user interacts with//
 
-Console.WriteLine("There are two guards standing at the front door. How will you get pass? Type 1 to - Pretend to be a Staff member" +
-    "Type 2 to - Use your tranquilizer");
-string firstOption = Console.ReadLine();
+Console.WriteLine("There are two guards standing at the front door. How will you get pass? Type 1 to - Pretend to be a Staff member or Type 2 to - Use your tranquilizer");
+
+int firstOption = int.Parse(Console.ReadLine());
+
+if (firstOption == 1)
+{Console.WriteLine($"The guards did not regognize you. {playerName}, you failed your mission and you were arrested.")};
 
