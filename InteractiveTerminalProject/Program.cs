@@ -4,14 +4,14 @@
 int firstDecisionW = 1;
 int firstDecisionR = 2;
 
-int secondDecisionR = 3;
-int secondDecisionW = 4;
+int secondDecisionW = 3;
+int secondDecisionR = 4;
 
 int thirdDecisionR = 5;
 int thirdDecisionW = 6;
 
-int fourthDecisionR = 7;
-int fourthDecisionW = 8;
+int fourthDecisionW = 7;
+int fourthDecisionR = 8;
 
 
 //Tell player that their alein friend is trapped at Area 51//
